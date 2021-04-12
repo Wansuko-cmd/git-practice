@@ -13,4 +13,9 @@ fun Application.configureRouting() {
             call.respondText("Hello World!")
         }
     }
+    routing {
+        get("/hello"){
+            call.respondText("GO TO ROOT")
+        }
+    }
 }
